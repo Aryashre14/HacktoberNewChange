@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(78, 38, 106, 0.942);
+    /* background-color: #5C469C; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #1d1d11;
+    color: #0ef;
+    overflow: hidden;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(221, 234, 235);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.navbar a:hover {
+    background-color: #f2f3f7;
+    color: #1d1d11;
+    border-radius: 10px;
+}
+.navbar .logo {
+    float: left;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+.navbar .logo:hover {
+    background-color: #1d1d11;
+}
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.round-button {
+    background-color: #1d1d11;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 5px;
+    cursor: pointer;
+    width: 45vw;
+    white-space: normal;
+    text-align: center;
+    height: 20vh;
+}
+.button-image {
+    max-width: 100%;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+.rectangular-area {
+    background-color: #1d1d11;
+    text-align: center;
+    overflow: auto;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.card img {
+    max-width: 100%;
+    max-height: 190px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.rectangular-area a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dashboard-bar {
+    background: #1d1d11;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin: 16px;
+}
+.dashboard-bar h1 {
+    margin: 0;
+}
+.dashboard-image {
+    max-width: 100%;
+    max-height: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+/* Footer styles */
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100vw;
+    background-color: #1d1d11;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
